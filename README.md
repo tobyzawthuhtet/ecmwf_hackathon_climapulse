@@ -1,6 +1,6 @@
 # Climate × Health  — Analysis Pipeline ( Berlin case study )
 
-Investigation of how air quality conditions affect emergency medical service (EMS) demand in Berlin, using Berlin Fire Brigade open data and Copernicus CAMS atmospheric forecasts.
+Investigation of how air quality conditions affect emergency medical service (EMS) demand in Berlin, using Berlin Fire Brigade open data and Copernicus CAMS atmospheric forecasts. This project is born from Hackathon Environmental Intelligence for Cultural Heritage and Health.
 
 ---
 
@@ -294,3 +294,6 @@ Per-district EMS demand prediction and Potential Risk classification.
 - **Multiple testing**: use FDR (Benjamini-Hochberg) when testing many outcome × predictor combinations
 - **Lag features**: pre-built lag₁–lag₇ columns in CAMS CSVs are computed per-district so values never bleed across district boundaries
 - **Model dtype**: pass `X.astype(float)` to all statsmodels GLM/OLS calls — mixed bool/int columns cause a dtype=object error
+
+## Project Autor 
+Sarah Sildatke | Maurizio Amadori | Zaw thu htet
